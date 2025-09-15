@@ -1,0 +1,25 @@
+## Traditional way
+# create a virtual environment
+python -m venv <venv_name>
+
+# activate the virtual environment
+<venv_name>\Scripts\activate
+
+# install a packages from requirements.txt
+pip install -r requirements.txt
+
+
+## Using uv
+# create a virtual environment
+uv venv --python 3.12
+
+# activate the virtual environment
+uv venv --activate
+
+# install a packages from requirements.txt
+uv pip install -r requirements.txt
+
+# run the script
+uv run <script_name>.py
+
+
