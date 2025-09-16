@@ -1,5 +1,7 @@
 # List operations and methods
 ingredients = ["water", "milk", "black tea"]
+
+#  access at aparticular index
 ingredients.append("sugar")
 print(f"Ingredients are: {ingredients}")
 ingredients.remove("water")
