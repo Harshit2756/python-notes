@@ -22,8 +22,6 @@ if (reminder := value % 2): # assignment inside expression
 # else:
 #     print(f"Size is unavailable - {requested_size}")
 
-
-
 flavors = ["masala", "ginger", "lemon", "mint"]
 
 print("Available flavors: ", flavors)
