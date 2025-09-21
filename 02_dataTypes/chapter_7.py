@@ -12,3 +12,10 @@ print(f"Ratio is G :{ginger_ratio} and C: {cadramom_ratio}")
 
 # membership testing
 print(f"Is cinnamon in masala spices ? {'cinnamon' in masala_spices}")
+
+# list vs tuple
+# => list is mutable, tuple is immutable
+# => list uses [], tuple uses ()
+# => list is slower than tuple
+# => list is for homogeneous data, tuple is for heterogeneous data
+#=> tuples 

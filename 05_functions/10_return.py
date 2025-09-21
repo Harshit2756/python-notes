@@ -28,8 +28,7 @@ print(chai_status(5))
 
 
 def chai_report():
-    return 100, 20, 10 # sold, remaining
+    return 100, 20, True # sold, remaining
 
 sold, remaining, not_paid = chai_report()
-print("Sold: ", sold)
-print("Remaining: ", remaining)
+print(f"Sold: {sold} | Remaining: {remaining} | Not Paid: {not_paid}")

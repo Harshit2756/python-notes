@@ -2,6 +2,9 @@
 ingredients = ["water", "milk", "black tea"]
 
 #  access at aparticular index
+print(f"First ingredient: {ingredients[0]}")
+print(f"Last ingredient: {ingredients[-1]}")
+
 ingredients.append("sugar")
 print(f"Ingredients are: {ingredients}")
 ingredients.remove("water")
