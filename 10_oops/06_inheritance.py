@@ -10,7 +10,7 @@ class MasalaChai(BaseChai):
     def add_spices(self):
         print("Adding cardamon, ginger, cloves.")
 
-# this is composition as the 
+# this is composition as chai_cls is used in chai_shop
 class ChaiShop:
     chai_cls = BaseChai
 
@@ -28,5 +28,9 @@ shop = ChaiShop()
 fancy = FancychaiShop()
 
 fancy.serve()
-fancy.chai_cls
+shop.serve()
+fancy.chai.add_spices()
+fancy.chai_cls.add_spices(fancy.chai)
+
+
 
