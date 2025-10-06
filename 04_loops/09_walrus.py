@@ -12,6 +12,7 @@
 # using walrus operator
 value = 17
 
+
 if (reminder := value % 2): # assignment inside expression
     print(f"Not divisible, remainder is {reminder}")
 

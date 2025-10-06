@@ -22,8 +22,9 @@ def make_chai(tea, milk, sugar):
 make_chai("Darjeeling", "Yes", "Low") #positional
 make_chai(tea="Green", sugar="Medium", milk="No") #keywords
 
-# args *-> all positional args should come first
-# *kwargs **-> all keyword args should come at the end
+# args *-> all positional args should come first => are stored as tuples
+# *kwargs **-> all keyword args should come at the end =>  as dic
+
 def special_chai(*ingredients, **extras):
     print("Ingredients", ingredients)
     print("Extras", extras)

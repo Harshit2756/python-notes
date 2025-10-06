@@ -13,7 +13,6 @@ def full_menu():
 for chai in full_menu():
     print(chai)
 
-
 def chai_stall():
     try:
         while True:

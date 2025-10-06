@@ -1,7 +1,7 @@
 from functools import wraps
 
 def require_admin(func):
-    @wraps(func)
+    @wraps(func) # 
     def wrapper(user_role):
         if user_role != "admin":
             print("Access denied: Admins only")

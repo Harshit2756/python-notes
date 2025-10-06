@@ -6,6 +6,8 @@ def infinite_chai():
 
 refill = infinite_chai()
 user2 = infinite_chai()
+# while True:
+    # print(next(refill))
 
 for _ in range(5):
     print(next(refill))
