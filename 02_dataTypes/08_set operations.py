@@ -1,10 +1,10 @@
 # set operations
 essential_spices = {"cardamom", "ginger", "cinnamon"}
 optional_spices = {"cloves", "ginger", "black pepper"}
-
+# union
 all_spices = essential_spices | optional_spices
 print(f"All spices: {all_spices}")
-
+# intersection
 common_spices = essential_spices & optional_spices
 print(f"common spices: {common_spices}")
 
