@@ -43,13 +43,13 @@ That’s where asyncio shines: it pauses a task while it’s waiting and lets an
 
 #### await (pause and yeilding not waiting)
 
-| Concept        | Waiting                          | Yielding                               |
-| -------------- | -------------------------------- | -------------------------------------- |
-| Type           | Blocking                         | Non-blocking                           |
-| CPU usage      | Idle                             | Always doing something useful          |
-| Who manages it | The interpreter (just waits)     | The event loop (schedules other tasks) |
-| Efficiency     | Wastes time                      | Efficient multitasking                 |
-| Keyword        | **time.sleep()** / blocking call | **await** + async function             |
+| Concept        | Waiting                          | Yielding                               
+| -------------- | -------------------------------- | -------------------------------------- 
+| Type           | Blocking                         | Non-blocking                           
+| CPU usage      | Idle                             | Always doing something useful          
+| Who manages it | The interpreter (just waits)     | The event loop (schedules other tasks) 
+| Efficiency     | Wastes time                      | Efficient multitasking                 
+| Keyword        | **time.sleep()** / blocking call | **await** + async function             
 
 - pauses execution until the result is ready.
 
