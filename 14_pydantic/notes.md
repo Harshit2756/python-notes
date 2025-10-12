@@ -90,7 +90,7 @@ Or the other way around:
 print(**user.model_dump())  # Unpacks model back into arguments
 ```
 
-🧠 Think of \*\* as "spread this dictionary’s keys and values into parameters." That’s super common when you pass Pydantic models into functions or APIs.
+🧠 Think of ** as "spread this dictionary’s keys and values into parameters." That’s super common when you pass Pydantic models into functions or APIs.
 
 ### Lesson 2: Type Conversion & Field Validation (Pydantic 101 advanced)
 
