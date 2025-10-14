@@ -1,4 +1,4 @@
-# Interger
+# Integer
 
 black_tea_grams = 14
 ginger_grams = 3
@@ -6,8 +6,8 @@ ginger_grams = 3
 total_grams = black_tea_grams + ginger_grams
 print(f"Total grams of base tea is {total_grams}")
 
-remaing_tea = black_tea_grams - ginger_grams
-print(f"Total grams of remaining tea is {remaing_tea}")
+remaining_tea = black_tea_grams - ginger_grams
+print(f"Total grams of remaining tea is {remaining_tea}")
 
 #  Exact division 
 milk_litres = 7
@@ -22,9 +22,9 @@ bags_per_pot = total_tea_bags // pots
 print(f"Whole tea bags per pot: {bags_per_pot}")
 
 # Modulus (Remainder)
-total_cadamom_pods = 10
+total_cardamom_pods = 10
 pods_per_cup = 3
-leftover_pods = total_cadamom_pods % pods_per_cup
+leftover_pods = total_cardamom_pods % pods_per_cup
 print(f"Leftover Cardamom pods: {leftover_pods}")
 
 # Exponentiation
@@ -36,3 +36,5 @@ print(f"Scaled flavour strength {powerful_flavor}")
 
 total_tea_leaves_harvested = 1_000_000_000
 print(f"tea leaves: {total_tea_leaves_harvested}")
+
+# operator overloading

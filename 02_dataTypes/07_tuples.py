@@ -7,7 +7,7 @@ print(f"Main masala spices: {spice1}, {spice2}, {spice3}")
 
 ginger_ratio, cadramom_ratio = 2, 1
 print(f"Ratio is G :{ginger_ratio} and C: {cadramom_ratio}")
-# swaping using tuples
+# swapping using tuples
 ginger_ratio, cadramom_ratio = cadramom_ratio, ginger_ratio
 print(f"Ratio is G :{ginger_ratio} and C: {cadramom_ratio}")
 
