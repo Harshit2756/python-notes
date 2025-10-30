@@ -1,6 +1,11 @@
 ## Traditional way
 # create a virtual environment
 python -m venv <venv_name>
+-m : module flag to run library modules as scripts
+
+to create a virtual environment with the specified version of Python
+# e.g., python3.12 -m venv <venv_name>
+
 
 # activate the virtual environment
 <venv_name>\Scripts\activate
