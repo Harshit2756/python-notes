@@ -4,7 +4,7 @@ In Python, everything is an object. This includes not only data types like integ
 
 ## Immutable vs Mutable Objects
 
-![alt text]({AE132995-90BB-48B5-B07E-3D509CF8D418}.png)
+![alt text](Mutability.png)
 
 - **Always check with the identity of the object using the id() function. If the id changes after an operation, it means a new object has been created i.e the original object is immutable.**
 
