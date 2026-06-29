@@ -1,30 +1,5 @@
 # Python Libraries Part 1 - Theory - TUF+
 
-## Python Libraries for DSA & Interviews
-
-### (Your Toolkit for Problem Solving)
-
-Welcome to Python Libraries!  
-Python provides powerful built-in libraries for data structures and algorithms.  
-Comparable to C++ STL or Java Collections - essential tools for DSA!
-
-### Reasons to Learn
-
--   Save time (pre-written, optimized code)
--   Interview essential (expected knowledge)
--   Makes DSA problems easier
--   Industry standard
-
-### Essential Libraries:
-
--   **Collections:** deque, Counter, defaultdict, OrderedDict, namedtuple
--   **Heapq:** priority queue
--   **Bisect:** binary search
--   **Itertools:** combinations, permutations
--   **Functools:** lru\_cache, reduce
--   **Math:** GCD, LCM, sqrt, etc.
--   **Built-in functions:** sorted, min, max, sum, etc.
-
 ---
 
 ## Built-in Functions - Common Operations
@@ -168,7 +143,7 @@ list(range(0, 10, 2))          # [0, 2, 4, 6, 8]
 ### Functions:
 
 ```python
-# Cominations: returns r-length tuples from n-length iterable
+# Combinations: returns r-length tuples from n-length iterable
 list(itertools.combinations([1,2,3], 2))      # [(1,2), (1,3), (2,3)]
 # Combinations with replacement: allows repeated elements
 list(itertools.combinations_with_replacement([1,2], 2))  # [(1,1), (1,2), (2,2)]
@@ -198,8 +173,6 @@ groups = itertools.groupby([1,1,2,2,2,3])
 -   Grouping elements
 -   Complex iteration patterns
 
-  
-
 ---
 
 ## Functools - Function Tools
@@ -220,6 +193,7 @@ fibonacci(10)                                  # First call: computes
 fibonacci(10)                                  # Second call: uses cache (instant!)
 
 # Reduce
+# it reduces a sequence to a single value by applying a binary function cumulatively to the items of the iterable
 from functools import reduce
 reduce(lambda x, y: x + y, [1, 2, 3, 4])      # Sum: 10
 reduce(lambda x, y: x * y, [1, 2, 3, 4])      # Product: 24
